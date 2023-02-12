@@ -12,6 +12,7 @@ public class TestOuterClass {
 		// TODO Auto-generated method stub
 
 		// Non-static member inner class
+		//*Modified to validate 02/11/2023
 		TestOuterClass o = new TestOuterClass();
 		TestOuterClass.Inner i = o.new Inner();
 		i.msg();
